@@ -1,0 +1,143 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* =========================================
+=================== Default css Start ========================= */
+.active,
+.text-active,
+.text-primary-color {
+    color: #FFC107 !important;
+}
+
+.secondary-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 12px 32px;
+    border: 2px solid #FFC107;
+    color: #000;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.secondary-button:hover {
+    border: 2px solid #fff !important;
+    background-color: #FFC107 !important;
+    color: #000;
+    transition: .5s;
+}
+
+.primary-bg {
+    background-color: #FFC107;
+}
+
+.primary-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 14px 28px;
+    background-color: #FFC107;
+    color: #000;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.primary-button:hover {
+    border: 2px solid #FFC107;
+    background-color: #fff !important;
+    color: #000;
+    transition: .5s;
+}
+
+.white-hr {
+    background-color: #fff;
+    height: 2px;
+}
+
+/* Default css END */
+
+
+/* =========================================
+=================== Header section css Start ========================= */
+.main-header-wrapper {
+    position: absolute;
+    content: '';
+    width: 100%;
+    top: 56px;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar-collapse.show {
+    background: #000;
+    padding: 15px 15px 25px;
+}
+
+.navbar-collapse.show a.secondary-button {
+    color: #fff;
+}
+
+.main-header-wrapper .nav-link:hover {
+    color: #FFC107 !important;
+    transition: .5s;
+}
+
+.user-img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+/* Header section css END */
+
+/* =========================================
+==================== Hero Section Start ======================== */
+.hero-banner-wrapper {
+    background-image: url('./img/hero/1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    height: calc(100vh - 73px);
+    background-size: auto;
+    background-position: right;
+}
+
+.hero-b-content-wrap i.fa-solid.fa-circle-check {
+    color: #14BD3A !important;
+    margin-right: 5px;
+}
+
+
+
+
+/* Hero section END./ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+============================================ */
