@@ -47,6 +47,12 @@
                 </div>
               </div>
               <div class="top-h-right-wrap d-flex align-items-center flex-wrap gap-3">
+                <div class="translate-language-wrap">
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="1" selected> English</option>
+                        <option value="2">Germany</option>
+                    </select>
+                </div>
                 <ul class="social-list mb-0 list-unstyled d-flex gap-3">
                   <li class="text-dark">
                     <i class="fa-brands fa-facebook"></i>
@@ -106,7 +112,39 @@
                 </li>
             </ul>
 
-            <div class="navbar-button d-flex gap-3 flex-wrap">hello</div>
+            <div class="navbar-button d-flex gap-3 flex-wrap" style="padding-right: 302px">
+                <div class="nav-item dropdown single-nav-item">
+                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <ul class="dropdown-menu search-dropdown">
+                        <li>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="nav-item dropdown single-nav-item">
+                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="call-us primary-bg">
+                    <h6>
+                        <i class="fa-solid fa-phone"></i>
+                        CALL US: + 15-656-458
+                    </h6>
+                </div>
+            </div>
           </div>
         </div>
       </nav>
@@ -116,7 +154,7 @@
       <section class="hero-banner-wrapper overflow-hidden">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8 col-sm-12 col-12">
               <div class="hero-b-content-wrap py-3 py-sm-5">
                 <h1 class="text-white">
                   Zukunftsweisende Photovoltaik <br />
@@ -143,7 +181,7 @@
         </div>
       </section>
 
-      <section class="why-choose-wrapper overflow-hidden py-3 py-sm-5">
+      <section class="why-choose-wrapper overflow-hidden pb-3 pb-sm-5">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-6 col-12">
@@ -195,17 +233,22 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="section-heading">
-                <span class="section-top-title">WHAT WE DO</span>
-                <h1>Our Services</h1>
-              </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="section-heading">
+                      <span class="section-top-title">WHAT WE DO</span>
+                      <h1>Our Services</h1>
+                    </div>
+                    <div class="button-wrap">
+                      <a href="#" class="solid-theme-btn">View All</a>
+                    </div>
+                </div>
             </div>
           </div>
 
           <div class="section-content mt-4">
             <div class="row">
                 <div class="col-xl-4 col-md-4 col-sm-6 col-12">
-                  <div class="single-people-box profile-card-wrap shadow-lg">
+                  <div class="single-people-box mb-3 m-sm-0 profile-card-wrap shadow-lg">
                     <div class="single-p-b-img">
                       <img
                         class="w-100"
@@ -224,11 +267,11 @@
                   </div>
                 </div>
                 <div class="col-xl-4 col-md-4 col-sm-6 col-12">
-                  <div class="single-people-box profile-card-wrap shadow-lg">
+                  <div class="single-people-box mb-3 m-sm-0 profile-card-wrap shadow-lg">
                     <div class="single-p-b-img">
                       <img
                         class="w-100"
-                        src="./img/service/1.png"
+                        src="./img/service/2.png"
                         alt=""
                       />
                     </div>
@@ -243,11 +286,11 @@
                   </div>
                 </div>
                 <div class="col-xl-4 col-md-4 col-sm-6 col-12">
-                  <div class="single-people-box profile-card-wrap shadow-lg">
+                  <div class="single-people-box mb-3 m-sm-0 profile-card-wrap shadow-lg">
                     <div class="single-p-b-img">
                       <img
                         class="w-100"
-                        src="./img/service/1.png"
+                        src="./img/service/3.png"
                         alt=""
                       />
                     </div>
@@ -283,53 +326,180 @@
 
       <section class="testimonials-wrapper overflow-hidden py-3 py-sm-5">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="section-heading">
-                <span class="section-top-title">Testimonials</span>
-                <h1>What Our Customers Are Talking About?</h1>
-              </div>
-            </div>
-          </div>
-
-          <div class="section-content mt-4">
-            <div class="row">
-                <div class="col-xl-8 col-md-8 col-sm-12 col-12">
-                  <div class="swiper mySwiper testimonials_slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide single-tesimonials-box">
-                            <img class="mb-4" src="./img/tesimonials/1.png" alt="">
-                            <div class="single-t-text">
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
-                                <h4>John Doe</h4>
-                                <span>CEO</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide single-tesimonials-box">
-                            <img class="mb-4" src="./img/tesimonials/1.png" alt="">
-                            <div class="single-t-text">
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
-                                <h4>John Doe</h4>
-                                <span>CEO</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide single-tesimonials-box">
-                            <img class="mb-4" src="./img/tesimonials/1.png" alt="">
-                            <div class="single-t-text">
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
-                                <h4>John Doe</h4>
-                                <span>CEO</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
+          <div class="row justify-content-start">
+            <div class="col-xl-8 col-md-8 col-sm-12 col-12">
+                <div class="section-heading">
+                    <span class="section-top-title">Testimonials</span>
+                    <h1>What Our Customers Are Talking About?</h1>
                 </div>
+                <div class="section-content mt-4">
+                    <div class="swiper mySwiper testimonials_slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide single-tesimonials-box">
+                                <img class="mb-4" src="./img/tesimonials/1.png" alt="">
+                                <div class="single-t-text">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                    <h4>John Doe</h4>
+                                    <span>CEO</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide single-tesimonials-box">
+                                <img class="mb-4" src="./img/tesimonials/1.png" alt="">
+                                <div class="single-t-text">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                    <h4>John Doe</h4>
+                                    <span>CEO</span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide single-tesimonials-box">
+                                <img class="mb-4" src="./img/tesimonials/1.png" alt="">
+                                <div class="single-t-text">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                    <h4>John Doe</h4>
+                                    <span>CEO</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="faq-wrapper overflow-hidden py-3 py-sm-5">
+        <div class="container">
+          <div class="row justify-content-end">
+            <div class="col-xl-8 col-md-8 col-sm-12 col-12">
+                <div class="section-heading">
+                    <span class="section-top-title">Question parts</span>
+                    <h1>Frequently Asked Questions</h1>
+                </div>
+                <div class="section-content mt-4 faq-content-wrap">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-3 shadow-sm">
+                            <div class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Can I pay with a credit card ?
+                                </button>
+                            </div>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 shadow-sm">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Can I pay with a credit card ?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 shadow-sm">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Can I pay with a credit card ?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 shadow-sm">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Can I pay with a credit card ?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </section>
     </div>
+
+
+    <Footer class="footer-wrapper overflow-hidden bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="single-f-m-box">
+                        <a class="navbar-brand mb-3 d-block" href="#">
+                            <img class="bg-white" src="./img/logo.png" alt="" />
+                        </a>
+                        <p class="text-white mb-3">
+                            We Offer a Wide Range of Quality Solar Panel Installation Services. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </p>
+                        <div class="subscribe-from-wrap mt-4 mb-4 mb-sm-0">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="subs_email" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary px-3 submit_newsletter primary-bg" type="button" id="subscribe_button">Done</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 col-12">
+                    <div class="footer-content-wrap d-flex justify-content-around gap-3 flex-wrap  mb-4 mb-sm-0">
+                        <div class="single-f-m-box">
+                            <h5 class="text-white mb-4">Categories</h5>
+                            <ul class="mb-0 list-unstyled">
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Home</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Services</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Project</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">About Us</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Contacts</a></li>
+                            </ul>
+                        </div>
+                        <div class="single-f-m-box">
+                            <h5 class="text-white mb-4">About Us</h5>
+                            <ul class="mb-0 list-unstyled">
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Home</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Services</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Project</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">About Us</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">Contacts</a></li>
+                            </ul>
+                        </div>
+                        <div class="single-f-m-box">
+                            <h5 class="text-white mb-4">Contact Us</h5>
+                            <ul class="mb-0 list-unstyled">
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">+88 012145001</a></li>
+                                <li class="mb-3"><a class="text-decoration-none text-white" href="#">mail@gmail.com</a></li>
+                            </ul>
+                            <ul class="social-list mb-0 list-unstyled d-flex gap-3">
+                                <li class="text-white"><a target="_blank" href="#" ><i class="fa-brands fa-facebook text-white"></i></a></li>
+                                <li class="text-white"><a target="_blank" href="#"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a></li>
+                                <li class="text-white"><a target="_blank" href="#"><i class="fa-brands fa-linkedin text-white"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-bottom-wrap pt-5 text-center">
+                        <p class="mb-0 text-white">© 2023 Jhon Deo,  All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script
