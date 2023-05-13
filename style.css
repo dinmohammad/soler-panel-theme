@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5 !important;
 }
 /* =========================================
 =================== Default css Start ========================= */
@@ -44,6 +45,7 @@ body {
     color: #000;
     border-radius: 6px;
     text-decoration: none;
+    width: max-content;
 }
 
 .primary-button:hover {
@@ -58,6 +60,41 @@ body {
     height: 2px;
 }
 
+.section-top-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFC107;
+}
+.section-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70px;
+}
+.section-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+.section-list-wrap li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #282829;
+}
+.section-list-wrap li i{
+    color: #00D94A !important;
+    margin-right: 5px;
+}
 /* Default css END */
 
 
@@ -109,25 +146,133 @@ body {
     background-position: right;
 }
 
-.hero-b-content-wrap i.fa-solid.fa-circle-check {
+.hero-b-content-wrap i{
     color: #14BD3A !important;
     margin-right: 5px;
 }
-
-
-
-
 /* Hero section END./ */
 
 
+/* =========================================
+==================== why choose Section Start ======================== */
+.why-choose-img-wrap {
+    position: relative;
+}
 
+.why-choose-img-wrap:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(255 193 7 / 15%);
+    border-radius: 8px;
+    left: 23px;
+    top: 23px;
+    z-index: -1;
+}
+.why-choose-text-wrap {
+    position: relative;
+    padding-left: 20px;
+}
+.why-choose-img-wrap>img {
+    width: 100%;
+    height: 522px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.why-choose-text-wrap {
+    position: relative;
+    padding: 20px;
+}
+/* why choose Section END */
 
+/* =========================================
+==================== service Section Start ======================== */
+.single-pb-logo {
+    position: absolute;
+    content: '';
+    top: -46px;
+    right: 17px;
+    height: 88px;
+    width: 88px;
+}
+.single-p-b-img img{
+    width: 100%;
+    height: 371px;
+    object-fit: cover;
+}
+.single-p-b-text {
+    position: relative;
+    padding: 56px 3rem 2rem 36px !important;
+}
+/* service Section END */
 
+/* =========================================
+==================== video Section Start ======================== */
+.video-wrapper{
+    position: relative;
+    background-image: url('./img/video-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.video-content-wrap {
+    position: relative;
+    padding: 100px 0 !important;
+}
 
+.video-mid-text {
+    position: relative;
+    width: auto !important;
+    display: table;
+    margin: 0 auto;
+}
+/* video Section END */
 
+/* =========================================
+==================== testimonials Section Start ======================== */
+.testimonials-wrapper {
+    position: relative;
+    background-image: url('./img/tesimonials/bg.png');
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: right;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.single-tesimonials-box img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.single-t-text span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #707070;
+}
+.swiper-pagination {
+    /* bottom: -8px !important; */
+}
 
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+   opacity: unset !important;
+   transition: .5s;
+}
 
-
+span.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background: #282829;
+    opacity: 0.3;
+}
+/* testimonials Section END */
 
 
 

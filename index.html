@@ -1,121 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <!-- font-family: 'Poppins', sans-serif; -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Top Header -->
     <section class="top-header-wrapper position-relative py-2 py-sm-3 bg-white">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="d-flex justify-content-between flex-wrap align-items-center">
-                        <div class="top-h-left-wrap d-flex align-items-center flex-wrap gap-2 gap-sm-3">
-                            <div class="top-single-info">
-                                <i class="fa-solid fa-envelope text-dark"></i>
-                                <span class="text-dark">info@beraterstar.com</span>
-                            </div>
-                            <div class="top-single-info">
-                                <i class="fa-regular fa-clock text-dark"></i>
-                                <span class="text-dark">Mon - Sat 8:00 - 17:30, Sunday - CLOSE</span>
-                            </div>       
-                            <div class="top-single-info">
-                                <i class="fa-solid fa-location-dot text-dark"></i>
-                                <span class="text-dark">250, main road, USA</span>
-                            </div>
-                        </div>
-                        <div class="top-h-right-wrap d-flex align-items-center flex-wrap gap-3">
-                            <ul class="social-list mb-0 list-unstyled d-flex gap-3">
-                                <li class="text-dark"><i class="fa-brands fa-facebook"></i></li>
-                                <li class="text-dark"><i class="fa-brands fa-twitter"></i></li>
-                                <li class="text-dark"><i class="fa-brands fa-whatsapp"></i></li>
-                                <li class="text-dark"><i class="fa-brands fa-instagram"></i></li>
-                            </ul>
-                        </div>
-                    </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-between flex-wrap align-items-center">
+              <div class="top-h-left-wrap d-flex align-items-center flex-wrap gap-2 gap-sm-3">
+                <div class="top-single-info">
+                  <i class="fa-solid fa-envelope text-dark"></i>
+                  <span class="text-dark">info@beraterstar.com</span>
                 </div>
-
+                <div class="top-single-info">
+                  <i class="fa-regular fa-clock text-dark"></i>
+                  <span class="text-dark">Mon - Sat 8:00 - 17:30, Sunday - CLOSE</span>
+                </div>
+                <div class="top-single-info">
+                  <i class="fa-solid fa-location-dot text-dark"></i>
+                  <span class="text-dark">250, main road, USA</span>
+                </div>
+              </div>
+              <div class="top-h-right-wrap d-flex align-items-center flex-wrap gap-3">
+                <ul class="social-list mb-0 list-unstyled d-flex gap-3">
+                  <li class="text-dark">
+                    <i class="fa-brands fa-facebook"></i>
+                  </li>
+                  <li class="text-dark">
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li class="text-dark">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </li>
+                  <li class="text-dark">
+                    <i class="fa-brands fa-instagram"></i>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Main Header -->
-    <Header class="main-header-wrapper">
-        <nav class="navbar navbar-expand-lg py-2 py-sm-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./img/logo.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <header class="main-header-wrapper">
+      <nav class="navbar navbar-expand-lg py-2 py-sm-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact</a>
-                        </li>
-                    </ul>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+            </ul>
 
-                    
-                    <div class="navbar-button d-flex gap-3 flex-wrap">
-                        hello
+            <div class="navbar-button d-flex gap-3 flex-wrap">hello</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main-wrapper">
+      <section class="hero-banner-wrapper overflow-hidden">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="hero-b-content-wrap py-3 py-sm-5">
+                <h1 class="text-white">
+                  Zukunftsweisende Photovoltaik <br />
+                  <span class="text-active">Lösungen </span> von PV-Konzepte
+                </h1>
+                <p class="mt-3 mb-4 text-white">
+                  PV-Konzepte bietet zukunftsweisende Photovoltaik-Lösungen für
+                  eine nachhaltige Energieversorgung. Kunden erhalten eine
+                  maßgeschneiderte Beratung und profitieren von der Expertise
+                  eines renommierten Unternehmens für eine grüne Zukunft
+                </p>
+
+                <div class="hero-b-button-wrap d-flex gap-3">
+                  <a
+                    href="http://"
+                    class="primary-button d-flex align-items-center gap-2"
+                  >
+                    Find Out More <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-choose-wrapper overflow-hidden py-3 py-sm-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-12">
+              <div class="why-choose-img-wrap">
+                <img src="./img/why-choose.png" class="w-100" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12">
+              <div class="why-choose-text-wrap">
+                <div class="section-heading">
+                  <span class="section-top-title">WHY CHOOSE US</span>
+                  <h1>
+                    Workers Standing on Wind Turbine In Rural Landscape
+                  </h1>
+                  <p class="section-text">
+                    PV-Konzepte bietet zukunftsweisende Photovoltaik-Lösungen
+                    für eine nachhaltige Energieversorgung.
+                  </p>
+
+                  <ul class="section-list-wrap list-unstyled mt-3 mb-4">
+                    <li class="text-dark">
+                      <i class="fa-solid fa-check"></i>
+                      Residential Markets
+                    </li>
+                    <li class="text-dark">
+                      <i class="fa-solid fa-check"></i>
+                      Customer Satisfaction
+                    </li>
+                    <li class="text-dark">
+                      <i class="fa-solid fa-check"></i>
+                      SunPower Branded
+                    </li>
+                  </ul>
+
+                  <a
+                    href="http://"
+                    class="primary-button d-flex align-items-center gap-2"
+                  >
+                    Contacts me <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="what-we-do-wrapper overflow-hidden py-3 py-sm-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <span class="section-top-title">WHAT WE DO</span>
+                <h1>Our Services</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-content mt-4">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 col-sm-6 col-12">
+                  <div class="single-people-box profile-card-wrap shadow-lg">
+                    <div class="single-p-b-img">
+                      <img
+                        class="w-100"
+                        src="./img/service/1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="single-p-b-text position-relative">
+                        <div class="single-pb-logo">
+                            <img src="./img/service/1.1.png" alt="">
+                        </div>
+                        <h4>Solar Technology</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit lacus. </p>
+                        <a href="#"> Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-6 col-12">
+                  <div class="single-people-box profile-card-wrap shadow-lg">
+                    <div class="single-p-b-img">
+                      <img
+                        class="w-100"
+                        src="./img/service/1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="single-p-b-text position-relative">
+                        <div class="single-pb-logo">
+                            <img src="./img/service/1.1.png" alt="">
+                        </div>
+                        <h4>Solar Technology</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit lacus. </p>
+                        <a href="#"> Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-md-4 col-sm-6 col-12">
+                  <div class="single-people-box profile-card-wrap shadow-lg">
+                    <div class="single-p-b-img">
+                      <img
+                        class="w-100"
+                        src="./img/service/1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="single-p-b-text position-relative">
+                        <div class="single-pb-logo">
+                            <img src="./img/service/1.1.png" alt="">
+                        </div>
+                        <h4>Solar Technology</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit lacus. </p>
+                        <a href="#"> Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-wrapper overflow-hidden py-3 py-sm-5 my-5">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="video-content-wrap text-center">
+                    <a href="">
+                        <img class="mb-4" src="./img/play-icon.png" alt="">
+                    </a>
+                    <div class="video-mid-text primary-bg px-5 py-3 rounded-3 w-auto">
+                        <h2 class="text-white">Our Company Sees a World without Waste</h2>
                     </div>
                 </div>
             </div>
-        </nav>
-    </Header>
+        </div>
+      </section>
 
-    <div class="main-wrapper">
-       <section class="hero-banner-wrapper overflow-hidden">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="hero-b-content-wrap py-3 py-sm-5">
-                            <h1 class="text-white">
-                                Zukunftsweisende Photovoltaik <br>
-                               <span class="text-active">Lösungen </span> von PV-Konzepte
-                            </h1>
-                            <p class="mt-3 mb-4 text-white">PV-Konzepte bietet zukunftsweisende Photovoltaik-Lösungen für eine nachhaltige Energieversorgung. Kunden erhalten eine maßgeschneiderte Beratung und profitieren von der Expertise eines renommierten Unternehmens für eine grüne Zukunft</p>
-                            
-                            <div class="hero-b-button-wrap d-flex gap-3">
-                                <a href="http://" class="primary-button d-flex align-items-center gap-2">
-                                    Find Out More <i class="fa-solid fa-arrow-right"></i>
-                                </a>
+      <section class="testimonials-wrapper overflow-hidden py-3 py-sm-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <span class="section-top-title">Testimonials</span>
+                <h1>What Our Customers Are Talking About?</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-content mt-4">
+            <div class="row">
+                <div class="col-xl-8 col-md-8 col-sm-12 col-12">
+                  <div class="swiper mySwiper testimonials_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide single-tesimonials-box">
+                            <img class="mb-4" src="./img/tesimonials/1.png" alt="">
+                            <div class="single-t-text">
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                <h4>John Doe</h4>
+                                <span>CEO</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide single-tesimonials-box">
+                            <img class="mb-4" src="./img/tesimonials/1.png" alt="">
+                            <div class="single-t-text">
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                <h4>John Doe</h4>
+                                <span>CEO</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide single-tesimonials-box">
+                            <img class="mb-4" src="./img/tesimonials/1.png" alt="">
+                            <div class="single-t-text">
+                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Iaculis eros pellentesque massa pharetra. Adipiscing id tellus metus sit  Iaculis eros pellentesque massa pharetra lacus. </p>
+                                <h4>John Doe</h4>
+                                <span>CEO</span>
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-pagination"></div>
+                </div>
                 </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -124,7 +337,11 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <script src="https://kit.fontawesome.com/684aa5e6c3.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/684aa5e6c3.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
